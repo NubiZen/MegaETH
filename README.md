@@ -35,29 +35,30 @@ Jika kode tersedia di Git, klon repositori:
 ```bash
 git clone https://github.com/nubizen/MegaETH.git
 cd MegaETH
-
-2. Buat Virtual Environment (Disarankan)
-``bash
+```
+### 2. Buat Virtual Environment (Disarankan)
+```bash
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
 venv\Scripts\activate     # Windows
+```
 
-
-3. Instal Dependensi
+### 3. Instal Dependensi
 Instal paket Python yang diperlukan:
-bash
+```bash
 pip install web3.py python-dotenv eth-account
+```
 
-
-4. Siapkan File .env
+### 4. Siapkan File .env
 Buat file .env di direktori utama dengan isi berikut:
+```bash
 RPC_URL=https://carrot.megaeth.com/rpc
 PRIVATE_KEYS=private_key1,private_key2,private_key3
 RPC_URL: URL endpoint RPC MegaETH testnet.
 PRIVATE_KEYS: Daftar kunci pribadi wallet, dipisahkan koma.
+```
 
-
-5. Verifikasi Struktur Direktori
+### 5. Verifikasi Struktur Direktori
 Pastikan struktur direktori Anda seperti ini:
 nubizen-software/
 ├── actions.py
