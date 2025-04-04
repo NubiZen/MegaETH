@@ -37,7 +37,7 @@ git clone https://github.com/nubizen/MegaETH.git
 cd MegaETH
 
 2. Buat Virtual Environment (Disarankan)
-bash
+``bash
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
 venv\Scripts\activate     # Windows
