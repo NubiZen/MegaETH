@@ -53,29 +53,5 @@ pip install web3.py python-dotenv eth-account
 Buat file .env di direktori utama dengan isi berikut:
 ```bash
 RPC_URL=https://carrot.megaeth.com/rpc
-PRIVATE_KEYS=private_key1,private_key2,private_key3
-RPC_URL: URL endpoint RPC MegaETH testnet.
 PRIVATE_KEYS: Daftar kunci pribadi wallet, dipisahkan koma.
 ```
-
-### 5. Verifikasi Struktur Direktori
-Pastikan struktur direktori Anda seperti ini:
-nubizen-software/
-├── actions.py
-├── main.py
-├── utils.py
-├── teko/
-│   ├── config.py
-│   ├── stake.py
-│   ├── unstake.py
-│   └── abi.py
-├── cap/
-│   └── cap.py
-├── gte/
-│   ├── gte.py
-│   └── abi.py
-├── onchaingm/
-│   └── onchaingm.py
-└── .env
-
----
